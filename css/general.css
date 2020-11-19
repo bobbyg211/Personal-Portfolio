@@ -1,0 +1,9 @@
+[class*="container"] {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1200px;
+}
