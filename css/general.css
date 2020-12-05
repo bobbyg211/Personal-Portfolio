@@ -109,6 +109,10 @@ li {
   font-size: 1rem;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 /* Header */
 
 .header .main-ribbon,
@@ -278,6 +282,9 @@ nav,
   font-family: var(--header-font);
   border: none;
   color: white;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s ease;
 }
 
 [class*="-btn"] a,
@@ -288,4 +295,8 @@ a[class*="-btn"] {
 
 .blue-btn {
   background: linear-gradient(to right, var(--middle-blue), var(--light-blue));
+}
+
+.blue-btn:hover {
+  background: linear-gradient(to right, var(--light-blue), var(--light-blue));
 }

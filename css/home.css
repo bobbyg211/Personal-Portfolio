@@ -1,4 +1,4 @@
-.home .banner {
+.home .banner .bg-area {
   min-height: 100vh;
   width: 100%;
   background: linear-gradient(
@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.home .banner:after {
+.home .banner .bg-area:after {
   content: "";
   position: absolute;
   top: 0;
@@ -27,12 +27,12 @@
   );
 }
 
-.home .banner .container-lg {
+.home .banner .bg-area .container-lg {
   position: relative;
   min-height: 100vh;
 }
 
-.home .banner .content-area {
+.home .banner .bg-area .container-lg .content-area {
   max-width: 80%;
   position: relative;
   z-index: 1;
@@ -53,11 +53,36 @@
   padding-top: 110px;
 }
 
-.home .skills-services {
+.home .skills-services .bg-area {
+  position: relative;
+}
+
+.home .skills-services .bg-area:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(
     to bottom,
     var(--black-blue),
-    var(--dark-purple),
+    transparent,
     var(--black-blue)
   );
+}
+
+.home .skills-services .bg-area .brain-vid {
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.home .skills-services .bg-area .container-lg .content-area {
+  position: relative;
+  z-index: 2;
 }
