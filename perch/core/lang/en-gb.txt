@@ -459,5 +459,8 @@
     "Editing Collection Options": "Editing Collection Options",
     "Used for search results and draft previews. If you need this, enter the root-relative URL using %sbraces%s around any dynamic fields. e.g.": "Used for search results and draft previews. If you need this, enter the root-relative URL using %sbraces%s around any dynamic fields. e.g.",
     "This option deletes all content from this collection.": "This option deletes all content from this collection.",
-    "Delete all content from this collection immediately": "Delete all content from this collection immediately"
+    "Delete all content from this collection immediately": "Delete all content from this collection immediately",
+    "No content yet?": "No content yet?",
+    "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.": "Make sure you have added some editable regions into your page, and then visited that page in your browser. Once you have, the regions should show up here.",
+    "Read the getting started guide to find out more": "Read the getting started guide to find out more"
 }
