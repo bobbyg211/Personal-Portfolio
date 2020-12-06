@@ -1,3 +1,5 @@
+<?php include('perch/runtime.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,19 +63,7 @@
         <div class="bg-area">
           <div class="container-lg">
             <div class="content-area">
-              <h1>
-                Writing Code<br /><span class="lgt-blu">You'll Understand</span>
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                takimata sanctus est Lorem ipsum dolor sit amet.
-              </p>
-              <a class="blue-btn" href="https://robertgonzalez.io/contact"
-                >Hire Me</a
-              >
+              <?php perch_content('Banner Text'); ?>
             </div>
 
             <div class="headshot">
