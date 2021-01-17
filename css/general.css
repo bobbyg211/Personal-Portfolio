@@ -25,8 +25,10 @@
   --dark-blue: #00256c;
   --black-blue: #03000a;
   --dark-purple: #1e0081;
-  --middle-purple: #c5a0ff;
+  --middle-purple: #4e00ff;
+  --light-purple: #c5a0ff;
   --teal: #15ffed;
+  --aqua: #004f81;
 }
 
 /* Basics */
@@ -104,9 +106,27 @@ h1 {
   line-height: 145px;
 }
 
+h2 {
+  font-size: 3.61rem;
+  font-weight: 300;
+}
+
 p,
 li {
   font-size: 1rem;
+}
+
+/* Colors */
+.sky-blu {
+  color: var(--sky-blue);
+}
+
+.light-purple {
+  color: var(--light-purple);
+}
+
+.teal {
+  color: var(--teal);
 }
 
 /* Header */
@@ -218,7 +238,7 @@ nav,
 .header .sub-ribbon .dot-nav {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 20px;
 }
 
 .header .sub-ribbon .dot-nav span {
@@ -256,7 +276,7 @@ nav,
 }
 
 .header .sub-ribbon .dot-nav span.purple {
-  background: var(--middle-purple);
+  background: var(--light-purple);
 }
 
 .header .sub-ribbon .dot-nav span.green {
@@ -288,4 +308,12 @@ a[class*="-btn"] {
 
 .blue-btn {
   background: linear-gradient(to right, var(--middle-blue), var(--light-blue));
+}
+
+.purple-btn {
+  background: linear-gradient(
+    to right,
+    var(--middle-purple),
+    var(--light-purple)
+  );
 }
